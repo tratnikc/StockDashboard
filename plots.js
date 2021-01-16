@@ -112,8 +112,8 @@ function buildPlot() {
     };
 
     Plotly.newPlot("plot", data, layout);
-    console.log(name.search(dataset_code) + 1);
-    d3.select(".company").text(name.substr(0, name.search(dataset_code) - 1));
+    // console.log(name.search(dataset_code) + 1);
+    // d3.select(".company").text(name.substr(0, name.search(dataset_code) - 1));
 
   });
 }
